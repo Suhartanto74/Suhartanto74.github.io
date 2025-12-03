@@ -1,3 +1,9 @@
+/* FINAL OVERRIDE UNTUK MENGHILANGKAN HEADER RESIDUAL */
+.site-header, .header, .masthead {
+    display: none !important;
+    visibility: hidden !important;
+}
+
 /* ================================================== */
 /* KRITIS: HIDE RESIDUAL GITHUB PAGES HEADER/SITE TITLE */
 /* ================================================== */
