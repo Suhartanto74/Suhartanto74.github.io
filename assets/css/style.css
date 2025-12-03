@@ -1,50 +1,71 @@
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    background-color: #f4f4f4;
-    color: #333;
+/* ======================================= */
+/* START: HERO SECTION & GRADIENT STYLING  */
+/* ======================================= */
+
+.hero-section {
+    padding: 80px 20px;
+    text-align: center;
+    /* Gradasi Warna: Biru Muda ke Putih */
+    background: linear-gradient(180deg, #e0f7fa, #ffffff);
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
 }
-.container {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 40px 20px;
-    min-height: 80vh; 
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 5px solid #00bcd4; /* Aksen warna */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-/* NAVBAR STYLING */
-.main-nav {
-    background-color: #34495e; /* Warna biru gelap/profesional */
-    padding: 15px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+.hero-section h1 {
+    font-size: 2.8em;
+    color: #34495e;
+    margin-bottom: 5px;
 }
-.nav-container {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-.site-title {
-    color: white;
-    text-decoration: none;
-    font-size: 1.6em;
-    font-weight: 600;
-    letter-spacing: 1px;
-}
-.nav-links a {
-    color: #ecf0f1; /* Abu-abu muda */
-    text-decoration: none;
-    margin-left: 25px;
+
+.tagline {
+    font-size: 1.2em;
+    color: #1abc9c; /* Warna aksen/profesional */
     font-weight: 500;
-    transition: color 0.3s;
+    margin-top: 0;
+    margin-bottom: 30px;
 }
-.nav-links a:hover {
-    color: #1abc9c; /* Warna aksen/hover */
+
+/* Tombol CTA (Call to Action) */
+.cta-buttons a {
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 0 10px;
+    transition: background-color 0.3s, transform 0.2s;
 }
-/* GAYA KONTEN */
-h1 {
-    border-bottom: 2px solid #ddd;
-    padding-bottom: 10px;
-    color: #2c3e50;
+
+.button.primary {
+    background-color: #00bcd4; /* Biru muda cerah */
+    color: white;
 }
+
+.button.primary:hover {
+    background-color: #0097a7;
+    transform: translateY(-2px);
+}
+
+.button.secondary {
+    background-color: transparent;
+    color: #34495e;
+    border: 2px solid #34495e;
+}
+
+.button.secondary:hover {
+    background-color: #34495e;
+    color: white;
+}
+/* ======================================= */
+/* END: HERO SECTION & GRADIENT STYLING  */
+/* ======================================= */
