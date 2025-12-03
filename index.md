@@ -23,7 +23,7 @@ title: SMAN 2 Bengkalis - Portal SMANDA Bengkalis
 
 <div class="card-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
 
-    <a href="/profil-sekolah.html" class="card-link" style="text-decoration: none;">
+    <a href="/profil-sekolah" class="card-link" style="text-decoration: none;">
         <div class="info-card" style="border: 1px solid #dee2e6; border-left: 5px solid #007bff; padding: 20px; border-radius: 8px; transition: transform 0.2s, box-shadow 0.2s; background-color: #ffffff; height: 100%;">
             <h3 style="color: #007bff; margin-top: 0;"><i class="fas fa-building fa-fw"></i> Profil Sekolah</h3>
             <p style="color: #495057;">Visi, Misi, Sejarah, dan Struktur Organisasi sekolah lengkap.</p>
