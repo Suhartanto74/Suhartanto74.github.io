@@ -1,19 +1,21 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
     margin: 0;
     background-color: #f4f4f4;
+    color: #333;
 }
 .container {
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 40px 20px;
+    min-height: 80vh; /* Agar konten tidak terlalu pendek */
 }
 /* NAVBAR STYLING */
 .main-nav {
-    background-color: #333;
+    background-color: #34495e; /* Warna biru gelap/profesional */
     padding: 15px 0;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 .nav-container {
     max-width: 1000px;
@@ -26,15 +28,23 @@ body {
 .site-title {
     color: white;
     text-decoration: none;
-    font-size: 1.5em;
-    font-weight: bold;
+    font-size: 1.6em;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 .nav-links a {
-    color: #ddd;
+    color: #ecf0f1; /* Abu-abu muda */
     text-decoration: none;
     margin-left: 25px;
+    font-weight: 500;
     transition: color 0.3s;
 }
 .nav-links a:hover {
-    color: #00bcd4; /* Warna profesional */
+    color: #1abc9c; /* Warna aksen/hover */
+}
+/* GAYA KONTEN */
+h1 {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    color: #2c3e50;
 }
