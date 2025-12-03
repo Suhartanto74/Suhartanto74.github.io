@@ -4,7 +4,7 @@ title: Beranda
 ---
 
 <div class="hero-section">
-    <img src="{{ '/assets/images/foto-anda.png' | relative_url }}" alt="Foto Profil Suhartanto" class="profile-photo">
+    <img src="{{ '/assets/images/TANTO.jpg' | relative_url }}" alt="Foto Profil Suhartanto" class="profile-photo">
     
     <h1>Suhartanto</h1>
     <h2 class="tagline">Full-Stack Developer | Project Manager | Your Professional Tagline</h2>
