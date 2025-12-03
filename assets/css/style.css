@@ -1,3 +1,16 @@
+/* ================================================== */
+/* KRITIS: HIDE RESIDUAL GITHUB PAGES HEADER/SITE TITLE */
+/* ================================================== */
+.site-header, .header, .masthead {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+/* KODE LAINNYA DI BAWAH INI */
+/* ... */
+
+
+
 /* ======================================= */
 /* HERO SECTION & GRADIENT STYLING  */
 /* ======================================= */
